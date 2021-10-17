@@ -6,7 +6,7 @@ for (item of buttons) {
         buttonText = e.target.innerText;
         console.log('Button text is ', buttonText);
         
-        if (buttonText == 'C') {
+        if (buttonText == 'AC') {
             screenValue = "";
             screen.value = screenValue;
         }
@@ -15,7 +15,7 @@ for (item of buttons) {
             
         }
 
-        else if(buttonText == 'D'){
+        else if(buttonText == 'CE'){
             screen.value = screen.value.slice(0, -1);
             screenValue =screen.value;
             
